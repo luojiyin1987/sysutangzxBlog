@@ -9,7 +9,9 @@ categories: frontend
 
 <img src="{{site.url}}sysutangzxBlog/source/2014-10-08-book-effect-1.png">
 
+
 HTML的结构非常简单，如下：
+
 
 	<div class="cover">
 		<div class="inner-controls">
@@ -34,10 +36,7 @@ HTML的结构非常简单，如下：
 	</div>
 
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
 
 [demoSite]:    http://cody1991.github.io/onlineTest/cssdesk/4/index.html
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+
