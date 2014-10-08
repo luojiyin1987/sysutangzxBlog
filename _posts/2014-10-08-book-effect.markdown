@@ -11,7 +11,7 @@ categories: frontend
 
 HTML的结构非常简单，如下：
 
-{% highlight ruby linenos%}
+{% highlight ruby %}
 <div class="cover">
      <div class="inner-controls">
          <ul>
