@@ -11,29 +11,29 @@ categories: frontend
 
 HTML的结构非常简单，如下：
 
-{% highlight ruby %}
-<div class="cover">
-     <div class="inner-controls">
-         <ul>
-             <li>
-                 <a href="#">
-                     <span class="entypo-play"><'/span>
-                 </a>
-             </li>
-             <li>
-                 <a href="#">
-                     <span class="entypo-download"><'/span>
-                 </a>
-             </li>
-             <li>
-                 <a href="#">
-                     <span class="entypo-share"><'/span>
-                 </a>
-            </li>
-         </ul>
-    </div>
-<'/div>
-{% endhighlight %}
+<pre>
+	<div class="cover">
+	     <div class="inner-controls">
+	         <ul>
+	             <li>
+	                 <a href="#">
+	                     <span class="entypo-play"></span>
+	                 </a>
+	             </li>
+	             <li>
+	                 <a href="#">
+	                     <span class="entypo-download"></span>
+	                 </a>
+	             </li>
+	             <li>
+	                 <a href="#">
+	                     <span class="entypo-share"></span>
+	                 </a>
+	            </li>
+	         </ul>
+	    </div>
+	</div>
+</pre>
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
