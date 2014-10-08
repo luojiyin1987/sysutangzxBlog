@@ -18,19 +18,19 @@ HTML的结构非常简单，如下：
 					<a href="#">
 						<span class="entypo-play"></span>
 					</a>
-	</li>
-	<li>
-	<a href="#">
-	<span class="entypo-download"></span>
-	</a>
-	</li>
-	<li>
-	<a href="#">
-	<span class="entypo-share"></span>
- 	</a>
-	</li>
-	</ul>
-	</div>
+				</li>
+				<li>
+					<a href="#">
+						<span class="entypo-download"></span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<span class="entypo-share"></span>
+ 					</a>
+				</li>
+			</ul>
+		</div>
 	</div>
 
 
