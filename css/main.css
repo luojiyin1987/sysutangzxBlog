@@ -17,7 +17,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
  */
 
 body {
-    font-family: Sniglet,Helvetica, Arial, sans-serif;
+    font-family: Sniglet, Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300;
@@ -37,6 +37,8 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
  */
 
 img {
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
     vertical-align: middle;
 }
