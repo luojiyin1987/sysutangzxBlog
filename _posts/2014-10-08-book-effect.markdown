@@ -27,7 +27,7 @@ HTML的结构非常简单，如下：
 				<li>
 					<a href="#">
 						<span class="entypo-share"></span>
- 					</a>
+					</a>
 				</li>
 			</ul>
 		</div>
