@@ -4,11 +4,8 @@ title:  "翻书效果"
 date:   2014-09-16 17:39:40
 categories: frontend
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
+    以前很好奇那种，比如一张图片右半边可以实现翻书效果的特效。一开始还以为是有什么CSS3的属性可以做到这点(想太多)，今天自己看到一个案例还不错就弄下来了， [demo][demo_site] 。
 
 {% highlight ruby linenos%}
 def print_hi(name)
@@ -20,6 +17,8 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
+
+[demo]:    http://cody1991.github.io/onlineTest/cssdesk/4/index.html
 [jekyll]:      http://jekyllrb.com
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help
