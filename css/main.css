@@ -2,12 +2,12 @@
  * Reset some basic elements
  */
 
-/*@font-face {
+@font-face {
     font-family: 'Sniglet';
     font-style: normal;
     font-weight: 400;
     src: local('Sniglet Regular'), local('Sniglet-Regular'), url(zaGgxcO7SfusqT6GpDlcHg.woff) format('woff');
-}*/
+}
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
  */
 
 body {
-    font-family: 'Microsoft YaHei', Helvetica, Arial, sans-serif;
+    font-family: 'Sniglet', Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300;
