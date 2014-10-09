@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "翻书效果"
+title:  "翻书效果（未完待续）"
 date:   2014-10-8 13:52:00
 categories: frontend
 ---
