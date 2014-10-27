@@ -12,5 +12,5 @@ categories: private
 [owl.carousel.fullpage][owl.carousel.fullpage]
 
 
-[basieStructureForSomeFrontPage]:    http://cody1991.github.io/fullpage/index.html
-[privateSite]: http://cody1991.github.io/owl.carousel.fullpage/index.html
+[fullpage]:    http://cody1991.github.io/fullpage/index.html
+[owl.carousel.fullpage]: http://cody1991.github.io/owl.carousel.fullpage/index.html
