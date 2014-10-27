@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "个人总结"
-date:   2014-10-9 16:34:00
+title:  "单屏滚动的邀请函模板"
+date:   2014-10-27 18:15:00
 categories: private
 ---
 
