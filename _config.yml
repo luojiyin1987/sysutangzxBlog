@@ -2,7 +2,7 @@
 title: 小桥流人丿溪
 email: 476490767@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  这是我的新博客，使用github pages和jekyll来实现。 BY 中山大学 唐泽雄
+  这是我的个人博客，使用Github Pages和Jekyll搭建 —— 唐泽雄
 baseurl: "/sysutangzxBlog" 
 url: "http://cody1991.github.io/"
 github_username:  cody1991
