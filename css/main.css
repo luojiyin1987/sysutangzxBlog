@@ -22,7 +22,7 @@ body {
     line-height: 1.5;
     font-weight: 300;
     color: #111111;
-    background-color: #fdfdfd;
+    background-color: #fdfdfd url(../source/bg.png) repeat;
     -webkit-text-size-adjust: 100%;
 }
 /**
@@ -38,9 +38,12 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
 
 img {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 100%;
     vertical-align: middle;
+}
+.post-content img {
+    border: 5px solid #16dcdc;
 }
 /**
  * Figures

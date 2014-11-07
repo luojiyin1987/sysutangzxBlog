@@ -21,7 +21,7 @@ github pages是用来搭建免费的，不限流量的个人网站，可以把�
 
 <img src="{{site.url}}sysutangzxBlog/source/2014.11.07/2.png">
 
-创建成功以后，会进入到自己的仓库的主页，接下来我们选择右边sidebar里面的 "settings" 选项。如图所示，当然刚创建成功的话，仓库里面只有Readmm.md一个文件。（接下来用另外一个github的账号sysutangzx来说明好了）
+创建成功以后，会进入到自己的仓库的主页，接下来我们选择右边sidebar里面的 "settings" 选项。如图所示，当然刚创建成功的话，仓库里面只有Readme.md一个文件。（接下来用另外一个github的账号sysutangzx来说明好了）
 
 <img src="{{site.url}}sysutangzxBlog/source/2014.11.07/3.png">
 
@@ -37,35 +37,45 @@ github pages是用来搭建免费的，不限流量的个人网站，可以把�
 
 <img src="{{site.url}}sysutangzxBlog/source/2014.11.07/6.png">
 
-在等待的时间，我们就可以回到原来的仓库首页去设置一下仓库的介绍了。如图：
+在等待的时间，我们可以回到原来的仓库首页去设置一下仓库的介绍了。如图：
 
 <img src="{{site.url}}sysutangzxBlog/source/2014.11.07/7.png">
 
 下面就是我们原始的github pages首页了。如图：
+
 <img src="{{site.url}}sysutangzxBlog/source/2014.11.07/8.png">
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+------------------------------------------------------------------------------------------------------------
 
-Jekyll also offers powerful support for code snippets:
+那么问题来了！。。华丽的分割线
 
-{% highlight ruby linenos%}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+我们当然不止只有一个仓库，如果我们有其他的项目仓库也希望能挂在github pages上面呢。比如下面这个：
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+<img src="{{site.url}}sysutangzxBlog/source/2014.11.07/9.png">
 
-[有帮助的图片]({{site.url}}sysutangzxBlog/source/test_pic.jpg)
+其实和创建前面的步骤差不多，但是如上图所示，这个时候我们可以任意定义我们的仓库名字了，创建成功之后还是进入到 "settings部分"，选择上面提到的 Automatic page generator 按钮 。在网站成功创建以后，这里有个问题就需要特别注意了：分支。
+在上面创建的网站，生成以后的文件默认是放在 master 分支里面的，而在以后的仓库的网站生成以后，放的地方是在 gh-pages 里面的，所以我们需要到 "setting" 里面设置我们的默认仓库是 gh-pages。如图：
 
-<img src="{{site.url}}sysutangzxBlog/source/test_pic.jpg">
+<img src="{{site.url}}sysutangzxBlog/source/2014.11.07/10.png">
 
+回到仓库首页以后，可以看到 commit ' create gh-pages branch via github'，这个就是原始的分支文件。接下来的事情就是把我们这个仓库 git clone 到本地了。（这一步就不赘述了，相信看了前面友情提示下的git简易教程，你是会的）
+
+<img src="{{site.url}}sysutangzxBlog/source/2014.11.07/11.png">
+
+然后我们进入到我们的目录中，比较暴力的我就把原本的文件全部删掉，然后放进了我自己的文件。当然不能删掉里面的.git文件夹了。
+
+<img src="{{site.url}}sysutangzxBlog/source/2014.11.07/12.png">
+
+之后在git bash中提交就完成了。上图涉及到的文件是我的项目[fullpage][fullpagesite]的文件，可以点击这里查看。这样就大功告成了！如今访问，例如 [http://cody1991.github.io/fullpage][fullpagesite] 或者 [http://cody1991.github.io/][mygithubsite] 都可以了。另外想要搭建像我这样的一个github pages jekyll博客的话，可以访问它的主页[jekyll 主页][jekyllsite]或者[jekyll 中文网站][jekyllcn]
+
+<img src="{{site.url}}sysutangzxBlog/source/2014.11.07/13.png">
+
+The End.
 
 [githubpages]: https://pages.github.com/
 [gitintro]: http://www.bootcss.com/p/git-guide/
 [gitsite]:https://github.com/
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+[fullpagesite]:http://cody1991.github.io/fullpage
+[mygithubsite]:http://cody1991.github.io/
+[jekyllsite]:http://jekyllrb.com/
+[jekyllcn]:http://jekyllcn.com/
