@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "github pages introduction!"
+title:  "Github pages introduction!"
 date:   2014-11-07 14:06:40
 categories: github
 tags: github pages
