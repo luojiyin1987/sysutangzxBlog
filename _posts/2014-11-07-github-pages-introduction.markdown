@@ -70,7 +70,7 @@ github pages是用来搭建免费的，不限流量的个人网站，可以把�
 
 <img src="{{site.url}}sysutangzxBlog/source/2014.11.07/13.png">
 
-The End.
+The End.有什么问题的话可以发送邮件到 476490767@qq.com ~ （不过应该没有人有问题来问我的 ORZ ）。谢谢！~
 
 [githubpages]: https://pages.github.com/
 [gitintro]: http://www.bootcss.com/p/git-guide/
