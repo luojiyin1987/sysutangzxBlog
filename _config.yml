@@ -9,3 +9,7 @@ github_username:  cody1991
 
 # Build settings
 markdown: kramdown
+comments :
+    provider : duoshuo
+    duoshuo : 
+      short_name : sysutangzx
