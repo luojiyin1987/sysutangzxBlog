@@ -6,10 +6,3 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "/sysutangzxBlog" 
 url: "http://cody1991.github.io/"
 github_username:  cody1991
-
-# Build settings
-markdown: kramdown
-comments :
-    provider : duoshuo
-    duoshuo : 
-      short_name : sysutangzx
