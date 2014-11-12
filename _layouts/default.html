@@ -30,10 +30,11 @@
         var pageNum = $('.page .pageNum');
         var pageWidth = 0;
         pageNum.each(function(){
-            pageWidth  += pageNum.width();
+            pageWidth  += $(this).width();
         })
         console.log(pageWidth);
 
+        $('.page').width(pageWidth);
     });
     </script>
 </body>
