@@ -172,6 +172,7 @@ pre > code {
 
 .site-header {
     /*border-top: 5px solid #424242;*/
+    
     border-bottom: 3px solid #e8e8e8;
     min-height: 56px;
     position: relative;
@@ -561,4 +562,19 @@ pre > code {
 }
 .highlight .il {
     color: #009999;
+}
+.audiojs {
+    margin: 0 auto;
+    max-width: 100%;
+}
+@media all and (max-width: 480px) {
+    .audiojs .time {
+        display: none;
+    }
+    .audiojs .scrubber {
+        width: 230px;
+    }
+    .audiojs {
+        width: 290px;
+    }
 }
