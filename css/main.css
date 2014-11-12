@@ -577,6 +577,7 @@ pre > code {
 .page > span, .page > a {
     padding-left: 5px;
     padding-right: 5px;
+    display: inline-block;
 }
 .next, .prev {
     display: inline-block;
