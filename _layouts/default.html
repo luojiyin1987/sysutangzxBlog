@@ -27,8 +27,13 @@
     <script type="text/javascript" src="{{ "js/common.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
     $(document).ready(function(){
-        var pageNum = $('.page .pageNum').length;
-        $('.page').width( pageNum * 16);
+        var pageNum = $('.page .pageNum');
+        var pageWidth = 0;
+        pageNum.each(function(){
+            pageWidth  += pageNum.width();
+        })
+        console.log(pageWidth);
+
     });
     </script>
 </body>
