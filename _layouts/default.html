@@ -26,8 +26,10 @@
     <script type="text/javascript" src="{{ "js/jquery-1.10.2.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript" src="{{ "js/common.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
-    $(document).ready(function(){
-        console.log('success jquery ');
+    $(document).ready(function(
+        if(('.post-list').length > 0){
+            $('.post-list').css('height',420);
+        }
     })
     </script>
 </body>
