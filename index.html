@@ -18,6 +18,12 @@ layout: default
     {% endfor %}
   </ul>
 
+{% if paginator.total_pages > 1 %}
+{% for post in paginator.posts %}
+<a href="http://cody1991.github.io/sysutangzxBlog{{post.url}}">{{ post.title }}</a>
+{% endfor %}
+{% endif %}
+
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
