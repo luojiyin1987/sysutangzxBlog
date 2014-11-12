@@ -583,6 +583,13 @@ pre > code {
 .next, .prev {
     display: inline-block;
     position: absolute;
+    top:0;
+}
+.prev{
+    left:-20px;
+}
+.next{
+    right:-20px;
 }
 .post-list {
     height: 420px;
