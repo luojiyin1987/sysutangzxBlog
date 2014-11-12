@@ -571,6 +571,7 @@ pre > code {
 .page {
     text-align: center;
     font-size: 26px;
+    position: relative;
 }
 .page > span, .page > a {
     margin-left: 5px;
@@ -578,6 +579,7 @@ pre > code {
 }
 .next, .prev {
     display: inline-block;
+    position: absolute;
 }
 .post-list {
     height: 420px;
