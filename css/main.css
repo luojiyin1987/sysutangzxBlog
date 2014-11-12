@@ -566,6 +566,7 @@ pre > code {
 .audiojs {
     margin: 0 auto;
     max-width: 100%;
+    border-radius: 4px;
 }
 @media all and (max-width: 480px) {
     .audiojs .time {
