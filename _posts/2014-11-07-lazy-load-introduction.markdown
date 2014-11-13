@@ -6,6 +6,8 @@ category: frontend
 tags: lazyload
 ---
 
+
+迟点会给出lazy load的使用说明
 [lazyload homepage][lazyloadHome]
 
 [lazyload index][lazyloadindex]

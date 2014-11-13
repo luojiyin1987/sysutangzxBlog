@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "翻书效果（未完待续）"
+title:  "Turning Book Effect"
 date:   2014-10-8 13:52:00
 category: frontend
 ---
+
+未完待续，一直没时间弄
 
 以前很好奇那种，比如一张图片右半边可以实现翻书效果的特效。一开始还以为是有什么CSS3的属性可以做到这点（想太多），今天自己看到一个案例还不错就弄下来了 [demo][demoSite] 。
 
