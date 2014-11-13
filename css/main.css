@@ -611,3 +611,12 @@ pre > code {
         width: 290px;
     }
 }
+.site-title{
+    font-family: 'franchiseRegular';
+}
+@font-face {
+    font-family: 'FranchiseRegular';
+    src: local('☺'), url('/fonts/Franchise/franchise-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal
+}
