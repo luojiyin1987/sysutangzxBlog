@@ -631,6 +631,15 @@ pre > code {
     display: inline-block;
     position: relative;
     letter-spacing: 10px;
+    -webkit-transform:wave 0.5s linear both infinite;
+}
+@-webkit-keyframes wave{
+    0%{
+        top:1px;
+    }
+    100%{
+        top:0;
+    }
 }
 #logo .char1 {
     -webkit-transform: rotate(-3deg);
