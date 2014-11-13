@@ -594,6 +594,9 @@ pre > code {
 .post-list {
     height: 420px;
 }
+.ds-powered-by{
+    display: none;
+}
 @media all and (max-width: 480px) {
     .audiojs .time {
         display: none;
