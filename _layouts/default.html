@@ -9,9 +9,22 @@
 
     <div class="page-content">
         <div class="wrapper">
-            <div class="rainwrap">
-                <img id="rain"/>
-                <canvas id="canvas"></canvas>
+            <div id="owl" class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="http://http://cody1991.github.io/sysutangzxBlog/source/owl1.jpg"/>
+                </div>
+                <div class="item">
+                    <img src="http://http://cody1991.github.io/sysutangzxBlog/source/owl2.jpg"/>
+                </div>
+                <div class="item">
+                    <img src="http://http://cody1991.github.io/sysutangzxBlog/source/owl3.jpg"/>
+                </div>
+                <div class="item">
+                    <img src="http://http://cody1991.github.io/sysutangzxBlog/source/owl4.jpg"/>
+                </div>
+                <div class="item">
+                    <img src="http://http://cody1991.github.io/sysutangzxBlog/source/owl5.jpg"/>
+                </div>
             </div>
             {{ content }}
         </div>
@@ -39,28 +52,24 @@
         })
 
         $('.page').width(pageWidth);
-
-        run();
-
     });
     </script>
 
-    <script type="text/javascript" src="{{ "js/rainyday.js" | prepend: site.baseurl }}"></script>
+
+    <script type="text/javascript" src="{{ "js/owl.carousel.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
-    function run() {
-        var image = document.getElementById('rain');
-        image.onload = function() {
-            var engine = new RainyDay({
-                image: this,
-            }, document.getElementById('canvas'));
-            engine.trail = engine.TRAIL_SMUDGE;
-            image.crossOrigin = 'anonymous';
-            engine.rain([ [0, 2, 200], [3, 3, 1] ], 1000);
-        };
-        image.src = 'http://cody1991.github.io/sysutangzxBlog/source/rain.jpg';
+    window.onload = function(){
+        if ($("#owl").length != 0) {
+            $("#owl").owlCarousel({
+                items: 1,
+                loop: true,
+                margin: 0,
+                smartSpeed: 450,
+                dots: false,
+            });
+        }        
     }
     </script>
-
 </body>
 
 </html>
