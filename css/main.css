@@ -626,7 +626,6 @@ pre > code {
     font-family: 'FranchiseRegular', sans-serif;
     font-size: 20px;
     color: #c44032;
-    text-shadow: #863027 -1px 2px 0;
 }
 #logo span {
     display: inline-block;
@@ -638,6 +637,7 @@ pre > code {
 }
 #logo .char2 {
     color: #e36b23;
+    -webkit-transform: rotate(3deg);
 }
 #logo .char3 {
     color: #e6c92e;
@@ -646,5 +646,6 @@ pre > code {
 }
 #logo .char4 {
     color: #5da028;
-    top: -2px
+    top: -2px;
+    -webkit-transform: rotate(-2deg);
 }
