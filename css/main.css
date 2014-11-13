@@ -601,7 +601,10 @@ pre > code {
     position: relative;
     max-width: 100%;
 }
-.rainwrap >* {
+.rainwrap > img{
+    position: relative;
+}
+.rainwrap > canvas {
     top: 0;
     right: 0;
     bottom: 0;
