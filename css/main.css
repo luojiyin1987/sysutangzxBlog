@@ -610,15 +610,19 @@ pre > code {
     margin: 0;
 }
 #owl .owl_link {
-    color:#fff;
+    text-align: center;
+    color: #fff;
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     text-align: center;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.4);
     padding-top: 5px;
     padding-bottom: 5px;
+}
+#owl .owl_link:hover {
+    background: rgba(0, 0, 0, 1);
 }
 @media all and (max-width: 480px) {
     .audiojs .time {
