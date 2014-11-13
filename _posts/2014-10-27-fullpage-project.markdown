@@ -14,5 +14,13 @@ category: frontend
 [owl.carousel.fullpage][owl.carousel.fullpage]
 
 
+Version 2.0
+2014.11.13
+
+添加新的邀请函模板
+[pagePiling][pagePilingSite]
+
+
 [fullpage]:    http://cody1991.github.io/fullpage/index.html
 [owl.carousel.fullpage]: http://cody1991.github.io/owl.carousel.fullpage/index.html
+[pagePilingSite]:http://cody1991.github.io/pagepiling/
