@@ -10,7 +10,7 @@
     <div class="page-content">
         <div class="wrapper">
             <div class="rainwrap">
-                <img id="rain" src="http://cody1991.github.io/sysutangzxBlog/source/rain.jpg" />
+                <img id="rain"/>
                 <canvas id="canvas"></canvas>
             </div>
             {{ content }}
@@ -41,14 +41,14 @@
         $('.page').width(pageWidth);
 
         run();
-        
+
     });
     </script>
 
     <script type="text/javascript" src="{{ "js/rainyday.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
     function run() {
-        var image = document.getElementById('background');
+        var image = document.getElementById('rain');
         image.onload = function() {
             var engine = new RainyDay({
                 image: this,
@@ -58,6 +58,7 @@
                 [3, 3, 0.1]
             ], 33);
         };
+        image.src = 'http://cody1991.github.io/sysutangzxBlog/source/rain.jpg';
     }
     </script>
 
