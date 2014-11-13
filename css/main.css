@@ -603,8 +603,8 @@ pre > code {
 #owl {
     cursor: pointer;
 }
-#owl .owl-theme .owl-controls {
-    margin-top: 0;
+.owl-theme .owl-controls {
+    margin-top: 0px;
 }
 @media all and (max-width: 480px) {
     .audiojs .time {
