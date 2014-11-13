@@ -8,6 +8,9 @@
     font-weight: 400;
     src: local('Sniglet Regular'), local('Sniglet-Regular'), url(zaGgxcO7SfusqT6GpDlcHg.woff) format('woff');
 }
+pre {
+    font-family: 'Sniglet';
+}
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
