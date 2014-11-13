@@ -583,19 +583,26 @@ pre > code {
 .next, .prev {
     display: inline-block;
     position: absolute;
-    top:0;
+    top: 0;
 }
-.prev{
-    left:-20px;
+.prev {
+    left: -20px;
 }
-.next{
-    right:-20px;
+.next {
+    right: -20px;
 }
 .post-list {
     height: 420px;
 }
-.ds-powered-by{
+.ds-powered-by {
     display: none;
+}
+.raninwrap {
+    position: relative;
+    max-width: 100%;
+}
+.rainwrap >* {
+    max-width: 100%
 }
 @media all and (max-width: 480px) {
     .audiojs .time {
