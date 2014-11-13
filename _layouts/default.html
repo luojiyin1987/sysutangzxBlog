@@ -9,8 +9,7 @@
 
     <div class="page-content">
         <div class="wrapper">
-          <img id="rain" src="http://cody1991.github.io/sysutangzxBlog/source/rain.jpg"/>
-            {{ content }}
+            <img id="rain" src="http://cody1991.github.io/sysutangzxBlog/source/rain.jpg" />{{ content }}
         </div>
 
     </div>
@@ -18,27 +17,40 @@
 
     {% include footer.html %}
 
-    <script type="text/javascript" src="{{ "audiojs/audio.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ " audiojs/audio.min.js " | prepend: site.baseurl }}"></script>
     <script>
     audiojs.events.ready(function() {
         var as = audiojs.createAll({
-            autoplay:true
+            autoplay: true
         });
     });
     </script>
-    <script type="text/javascript" src="{{ "js/jquery-1.10.2.min.js" | prepend: site.baseurl }}"></script>
-    <script type="text/javascript" src="{{ "js/common.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ " js/jquery-1.10.2.min.js " | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
-    $(document).ready(function(){
+    $(document).ready(function() {
         var pageNum = $('.page .pageNum');
         var pageWidth = 0;
-        pageNum.each(function(){
-            pageWidth  += ($(this).width() + 15 );
+        pageNum.each(function() {
+            pageWidth += ($(this).width() + 15);
         })
         console.log(pageWidth);
 
         $('.page').width(pageWidth);
     });
+    </script>
+
+    <script type="text/javascript" src="{{ " js/rainday.js " | prepend: site.baseurl }}"></script>
+    <script type="text/javascript">
+    var image = document.getElementById('rain');
+    image.onload = function() {
+        var engine = new RainyDay({
+            image: this
+        });
+        engine.rain([
+            [0, 2, 200],
+            [3, 3, 1]
+        ], 100);
+    };
     </script>
 </body>
 
