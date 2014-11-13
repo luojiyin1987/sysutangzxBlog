@@ -39,6 +39,9 @@
         })
 
         $('.page').width(pageWidth);
+
+        run();
+        
     });
     </script>
 
@@ -47,7 +50,6 @@
     function run() {
         var image = document.getElementById('background');
         image.onload = function() {
-            console.log(1);
             var engine = new RainyDay({
                 image: this,
                 crop: [50, 50, 600, 400]
