@@ -635,7 +635,7 @@ pre > code {
     -webkit-transition: all 0.2s ease-out;
 }
 #logo span:hover {
-    top: 3px
+    top: 2px
 }
 #logo .char2 {
     color: #e36b23;
