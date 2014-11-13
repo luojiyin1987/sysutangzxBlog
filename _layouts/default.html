@@ -52,8 +52,8 @@
         image.onload = function() {
             var engine = new RainyDay({
                 image: this,
-                crop: [50, 50, 600, 400]
             }, document.getElementById('canvas'));
+            engine.trail = engine.TRAIL_SMUDGE;
             engine.rain([
                 [3, 3, 0.1]
             ], 33);
