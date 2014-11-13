@@ -605,6 +605,7 @@ pre > code {
 }
 .owl-carousel .owl-item img {
     height: 100%;
+    margin:0;
 }
 #owl .owl_link {
     position: absolute;
