@@ -634,13 +634,13 @@ pre > code {
 #logo span {
     display: inline-block;
     position: relative;
-    letter-spacing: -1px;
+    letter-spacing: 10px;
     -webkit-transition: all 0.2s ease-out;
 }
 #logo span:hover {
     top: 3px
 }
-#logo .char2, #logo .char11 {
+#logo .char2{
     color: #e36b23;
     text-shadow: #9b4d1f -4px 4px 0
 }
@@ -675,7 +675,7 @@ pre > code {
     top: -7px;
     -webkit-transform: rotate(2deg)
 }
-#logo .char7 {} #logo .char8 {
+#logo .char8 {
     top: 1px;
     -webkit-transform: rotate(-2deg)
 }
@@ -683,18 +683,5 @@ pre > code {
     -webkit-transform: rotate(2deg)
 }
 #logo .char10 {
-    top: -65px;
-    width: 36px;
-}
-#logo .char10:hover {
-    -webkit-transition-duration: 0.4s;
-}
-#logo .char11 {
-    top: 2px;
-    left: -30px;
-    width: 50px;
-    -webkit-transform: rotate(-3deg)
-}
-#logo .char12 {
-    left: -24px
+    -webkit-transform: rotate(-2deg)
 }
