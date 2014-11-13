@@ -74,7 +74,7 @@ github pages是用来搭建免费的，不限流量的个人网站，可以把�
 
 <img src="{{site.url}}sysutangzxBlog/source/2014.11.07/13.png">
 
-The End.有什么问题的话可以发送邮件到 476490767@qq.com ~ （不过应该没有人有问题来问我的 ORZ ）。谢谢！~
+The End.有什么问题的话可以发送邮件到 476490767@qq.com ~ （不过应该没有人有问题来问我的 ORZ ）。谢谢！~   （2014.11.13  这几天在jekyll原始模板上加了分页功能，多说的评论功能还有音乐播放~上面这句话可以无视了，终于有评论功能了~）
 
 [gitbashsite]:http://git-scm.com/downloads
 [githubpages]: https://pages.github.com/
