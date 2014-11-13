@@ -623,8 +623,8 @@ pre > code {
 #logo {
     font-weight: normal;
     text-transform: uppercase;
-    font-family: 'FranchiseRegular', 'HelveticaNeue-Bold', 'League Gothic', 'Impact', sans-serif;
-    font-size: 160px;
+    font-family: 'FranchiseRegular', sans-serif;
+    font-size: 60px;
     margin-bottom: -32px;
     margin-left: 10px;
     color: #c44032;
