@@ -20,7 +20,9 @@
     <script type="text/javascript" src="{{ "audiojs/audio.min.js" | prepend: site.baseurl }}"></script>
     <script>
     audiojs.events.ready(function() {
-        var as = audiojs.createAll();
+        var as = audiojs.createAll({
+            autoplay:true
+        });
     });
     </script>
     <script type="text/javascript" src="{{ "js/jquery-1.10.2.min.js" | prepend: site.baseurl }}"></script>
