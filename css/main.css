@@ -624,9 +624,9 @@ pre > code {
     font-weight: normal;
     text-transform: uppercase;
     font-family: 'FranchiseRegular', sans-serif;
-    font-size: 60px;
+    font-size: 20px;
     color: #c44032;
-    text-shadow: #863027 -4px 4px 0;
+    text-shadow: #863027 -1px 1px 0;
 }
 #logo span {
     display: inline-block;
