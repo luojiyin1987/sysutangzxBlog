@@ -52,10 +52,10 @@
         image.onload = function() {
             var engine = new RainyDay({
                 image: this,
-                gravityAngle:Math.PI / 9
             }, document.getElementById('canvas'));
             engine.trail = engine.TRAIL_SMUDGE;
-            engine.rain([ [1, 0, 1000], [3, 3, 1] ], 100);
+            image.crossOrigin = 'anonymous';
+            engine.rain([ [0, 2, 200], [3, 3, 1] ], 100);
         };
         image.src = 'http://cody1991.github.io/sysutangzxBlog/source/rain.jpg';
     }
