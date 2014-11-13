@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "personal summary"
+title:  "Personal Summary"
 date:   2014-10-9 16:34:00
 category: private
 ---
