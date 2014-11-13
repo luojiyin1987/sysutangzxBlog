@@ -597,9 +597,8 @@ pre > code {
 .ds-powered-by {
     display: none;
 }
-.owl {
-    position: relative;
-    max-width: 100%;
+#owl {
+    cursor: pointer;
 }
 @media all and (max-width: 480px) {
     .audiojs .time {
