@@ -628,8 +628,8 @@ pre > code {
 }
 @media all and (max-width: 480px) {
     .wrapper {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     .audiojs .time {
         display: none;
