@@ -591,6 +591,9 @@ pre > code {
 .next {
     right: -20px;
 }
+.post-title {
+    margin-top: 15px;
+}
 .post-list {
     height: 420px;
 }
@@ -618,9 +621,6 @@ pre > code {
     font-style: normal
 }
 #logo {
-    font-family: 'FranchiseRegular';
-}
-#logo {
     font-weight: normal;
     text-transform: uppercase;
     font-family: 'FranchiseRegular', sans-serif;
@@ -631,24 +631,24 @@ pre > code {
     display: inline-block;
     position: relative;
     letter-spacing: 10px;
-    -webkit-transform:wave 0.5s linear both infinite;
+    -webkit-transform: wave 0.5s linear both infinite;
 }
-@-webkit-keyframes wave{
-    0%{
-        top:1px;
+@-webkit-keyframes wave {
+    0% {
+        top: 1px;
     }
-    100%{
-        top:0;
+    100% {
+        top: 0;
     }
 }
 #logo .char1 {
     -webkit-transform: rotate(-3deg);
-    top:1px;
+    top: 1px;
 }
 #logo .char2 {
     color: #e36b23;
     -webkit-transform: rotate(3deg);
-    top:0px;
+    top: 0px;
 }
 #logo .char3 {
     color: #e6c92e;
