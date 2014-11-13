@@ -634,18 +634,20 @@ pre > code {
 }
 #logo .char1 {
     -webkit-transform: rotate(-3deg);
+    top:1px;
 }
 #logo .char2 {
     color: #e36b23;
     -webkit-transform: rotate(3deg);
+    top:0px;
 }
 #logo .char3 {
     color: #e6c92e;
-    top: -1px;
+    top: 1px;
     -webkit-transform: rotate(2deg);
 }
 #logo .char4 {
     color: #5da028;
-    top: -2px;
+    top: 0;
     -webkit-transform: rotate(-2deg);
 }
