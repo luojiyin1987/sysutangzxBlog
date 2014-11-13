@@ -17,7 +17,7 @@
 
     {% include footer.html %}
 
-    <script type="text/javascript" src="{{ " audiojs/audio.min.js " | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "audiojs/audio.min.js" | prepend: site.baseurl }}"></script>
     <script>
     audiojs.events.ready(function() {
         var as = audiojs.createAll({
@@ -25,7 +25,7 @@
         });
     });
     </script>
-    <script type="text/javascript" src="{{ " js/jquery-1.10.2.min.js " | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "js/jquery-1.10.2.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         var pageNum = $('.page .pageNum');
@@ -39,7 +39,7 @@
     });
     </script>
 
-    <script type="text/javascript" src="{{ " js/rainday.js " | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "js/rainday.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
     var image = document.getElementById('rain');
     image.onload = function() {
