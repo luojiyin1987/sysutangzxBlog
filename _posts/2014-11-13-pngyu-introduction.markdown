@@ -2,7 +2,7 @@
 layout: post
 title:  "Pngyu Introduction"
 date:   2014-11-13 09:30:40
-categories: software
+category: software
 tags: pngSoftware
 ---
 

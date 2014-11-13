@@ -2,7 +2,7 @@
 layout: post
 title:  "Lazy Load Introduction"
 date:   2014-11-07 16:59:40
-categories: frontend
+category: frontend
 tags: lazyload
 ---
 

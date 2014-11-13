@@ -2,7 +2,7 @@
 layout: post
 title:  "Github Pages Introduction"
 date:   2014-11-07 14:06:40
-categories: github
+category: github
 tags: github pages
 ---
 github pages是用来搭建免费的，不限流量的个人网站，可以把自己的东西托管在二级域名 *.github.io 下，本教程就是来简单的说明github pages的使用。
