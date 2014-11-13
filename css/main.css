@@ -620,9 +620,11 @@ pre > code {
     background: rgba(0, 0, 0, 0.4);
     padding-top: 5px;
     padding-bottom: 5px;
+    -webkit-transition: 0.2s all;
 }
 #owl .owl_link:hover {
     background: rgba(0, 0, 0, 1);
+    text-decoration: none;
 }
 @media all and (max-width: 480px) {
     .audiojs .time {
