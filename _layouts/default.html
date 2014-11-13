@@ -11,6 +11,7 @@
         <div class="wrapper">
             <div class="rainwrap">
                 <img id="rain" src="http://cody1991.github.io/sysutangzxBlog/source/rain.jpg" />
+                <canvas id="canvas"></canvas>
             </div>
             {{ content }}
         </div>
@@ -44,17 +45,21 @@
 
     <script type="text/javascript" src="{{ "js/rainyday.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
-    var image = document.getElementById('rain');
-    image.onload = function() {
-        var engine = new RainyDay({
-            image: this
-        });
-        engine.rain([
-            [0, 2, 200],
-            [3, 3, 1]
-        ], 100);
-    };
+    function run() {
+        var image = document.getElementById('background');
+        image.onload = function() {
+            var engine = new RainyDay({
+                image: this,
+                crop: [50, 50, 600, 400]
+            }, document.getElementById('canvas'));
+            engine.trail = engine.TRAIL_SMUDGE;
+            engine.rain([
+                [3, 3, 0.1]
+            ], 33);
+        };
+    }
     </script>
+
 </body>
 
 </html>
