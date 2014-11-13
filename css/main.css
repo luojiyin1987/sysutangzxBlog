@@ -603,6 +603,9 @@ pre > code {
 #owl {
     cursor: pointer;
 }
+.owl-carousel .owl-item img {
+    height: 100%;
+}
 #owl .owl_link {
     position: absolute;
     bottom: 0;
