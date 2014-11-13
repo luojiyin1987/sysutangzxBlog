@@ -601,11 +601,13 @@ pre > code {
     display: none;
 }
 #owl {
+    margin-top: 10px;
+    margin-bottom: 10px;
     cursor: pointer;
 }
 .owl-carousel .owl-item img {
     height: 100%;
-    margin:0;
+    margin: 0;
 }
 #owl .owl_link {
     position: absolute;
@@ -616,9 +618,6 @@ pre > code {
     background: rgba(0, 0, 0, 0.7);
     padding-top: 10px;
     padding-bottom: 10px;
-}
-.owl-theme .owl-controls {
-    margin-top: 0px;
 }
 @media all and (max-width: 480px) {
     .audiojs .time {
