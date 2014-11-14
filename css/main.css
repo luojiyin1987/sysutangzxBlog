@@ -8,7 +8,7 @@
     font-weight: 400;
     src: local('Sniglet Regular'), local('Sniglet-Regular'), url(zaGgxcO7SfusqT6GpDlcHg.woff) format('woff');
 }
-pre,tt, code, kbd, samp {
+pre, tt, code, kbd, samp {
     font-family: 'Sniglet';
 }
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
@@ -665,10 +665,10 @@ pre > code {
 }
 @-webkit-keyframes wave {
     0% {
-        -webkit-transform:translateY(1px);
+        -webkit-transform: translateY(1px);
     }
     100% {
-        -webkit-transform:translateY(0);
+        -webkit-transform: translateY(0);
     }
 }
 #logo .char1 {
@@ -677,12 +677,15 @@ pre > code {
 #logo .char2 {
     color: #e36b23;
     -webkit-transform: rotate(3deg);
+    -webkit-animation-delay: 0.5s;
 }
 #logo .char3 {
     color: #e6c92e;
     -webkit-transform: rotate(2deg);
+    -webkit-animation-delay: 1s;
 }
 #logo .char4 {
     color: #5da028;
     -webkit-transform: rotate(-2deg);
+    -webkit-animation-delay: 1.5s;
 }
