@@ -689,10 +689,15 @@ pre > code {
     color: #5da028;
     -webkit-transform: rotate(-2deg);
 }
-
-.arc-list{
+.arc-list {
     list-style: none;
 }
-.category_main > div{
+.category_main {
+    margin-top: 15px;
+}
+.category_main > div {
     display: none;
+}
+.category_main ul {
+    margin-left: 0;
 }
