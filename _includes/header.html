@@ -14,12 +14,6 @@
       </a>
 
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-
         {% for category in site.categories %}
           <a class="page-link" href="http://cody1991.github.io/sysutangzxBlog/catagory.html#{{ category | first }}">{{ category | first }}</a>
       {% endfor %}
