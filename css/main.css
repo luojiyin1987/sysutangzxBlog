@@ -661,18 +661,10 @@ pre > code {
     display: inline-block;
     position: relative;
     letter-spacing: 10px;
-    -webkit-animation: wave 0.5s linear both infinite;
-}
-@-webkit-keyframes wave {
-    0% {
-        -webkit-transform: translateY(1px);
-    }
-    100% {
-        -webkit-transform: translateY(0);
-    }
 }
 #logo .char1 {
     -webkit-transform: rotate(-3deg);
+    top:1px;
 }
 #logo .char2 {
     color: #e36b23;
@@ -683,9 +675,9 @@ pre > code {
     color: #e6c92e;
     -webkit-transform: rotate(2deg);
     -webkit-animation-delay: 1s;
+    top:1px;
 }
 #logo .char4 {
     color: #5da028;
     -webkit-transform: rotate(-2deg);
-    -webkit-animation-delay: 1.5s;
 }
