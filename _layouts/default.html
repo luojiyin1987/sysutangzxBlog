@@ -21,10 +21,10 @@
 
     {% include footer.html %}
 
-    <script type="text/javascript" src="{{ "audiojs/audio.min.js " | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ " audiojs/audio.min.js " | prepend: site.baseurl }}"></script>
     <script>
     </script>
-    <script type="text/javascript" src="{{ "js/jquery-1.10.2.min.js " | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ " js/jquery-1.10.2.min.js " | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         var pageNum = $('.page .pageNum');
@@ -34,22 +34,19 @@
         })
 
         $('.page').width(pageWidth);
-    });
-    </script>
-
-
-    <script type="text/javascript" src="{{ "js/owl.carousel.min.js " | prepend: site.baseurl }}"></script>
-    <script type="text/javascript">
-    window.onload = function() {
-
-        $('.loading').remove();
-        $('.audiojs').show();
-        console.log(1);
         audiojs.events.ready(function() {
             var as = audiojs.createAll({
                 autoplay: true
             });
         });
+    });
+    </script>
+
+
+    <script type="text/javascript" src="{{ " js/owl.carousel.min.js " | prepend: site.baseurl }}"></script>
+    <script type="text/javascript">
+    window.onload = function() {
+        $('.loading').remove();
         if ($("#owl").length != 0) {
             $("#owl").owlCarousel({
                 items: 1,
@@ -65,7 +62,7 @@
     }
     </script>
 
-    <script type="text/javascript" src="{{ "js/jquery.lettering.js " | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ " js/jquery.lettering.js " | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         $("#logo").lettering();
