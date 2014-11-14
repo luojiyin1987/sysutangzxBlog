@@ -693,6 +693,6 @@ pre > code {
 .arc-list{
     list-style: none;
 }
-.category > div{
+.category_main > div{
     display: none;
 }
