@@ -689,3 +689,7 @@ pre > code {
     color: #5da028;
     -webkit-transform: rotate(-2deg);
 }
+
+.arc-list{
+    list-style: none;
+}
