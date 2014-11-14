@@ -82,13 +82,14 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: #2a7ae2;
     text-decoration: none;
-    -webkit-transition:all 0.5s;
+    -webkit-transition: all 0.5s;
 }
 a:visited {
     color: #1756a9;
 }
 a:hover {
     color: #111111;
+    text-indent: 10px;
 }
 /**
  * Blockquotes
@@ -661,14 +662,14 @@ pre > code {
     display: inline-block;
     position: relative;
     letter-spacing: 10px;
-    -webkit-transition:0.5s all;
+    -webkit-transition: 0.5s all;
 }
-#logo span:hover{
+#logo span:hover {
     opacity: 0.8;
 }
 #logo .char1 {
     -webkit-transform: rotate(-3deg);
-    top:1px;
+    top: 1px;
 }
 #logo .char2 {
     color: #e36b23;
@@ -679,7 +680,7 @@ pre > code {
     color: #e6c92e;
     -webkit-transform: rotate(2deg);
     -webkit-animation-delay: 1s;
-    top:1px;
+    top: 1px;
 }
 #logo .char4 {
     color: #5da028;
