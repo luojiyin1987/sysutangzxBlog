@@ -6,8 +6,8 @@
 <body>
 
     <div class="loading">
-        <img src="http://cody1991.github.io/sysutangzxBlog/source/load.gif"/>
-        <p>L o a d i n g . . . </p>
+        <img src="http://cody1991.github.io/sysutangzxBlog/source/load.gif" />
+        <p>L o a d i n g . . .</p>
     </div>
     {% include header.html %}
 
@@ -21,15 +21,10 @@
 
     {% include footer.html %}
 
-    <script type="text/javascript" src="{{ "audiojs/audio.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ " audiojs/audio.min.js " | prepend: site.baseurl }}"></script>
     <script>
-    audiojs.events.ready(function() {
-        var as = audiojs.createAll({
-            autoplay: true
-        });
-    });
     </script>
-    <script type="text/javascript" src="{{ "js/jquery-1.10.2.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ " js/jquery-1.10.2.min.js " | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         var pageNum = $('.page .pageNum');
@@ -43,12 +38,17 @@
     </script>
 
 
-    <script type="text/javascript" src="{{ "js/owl.carousel.min.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ " js/owl.carousel.min.js " | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
-    window.onload = function(){
+    window.onload = function() {
 
         $('.loading').remove();
-
+        $('.audiojs').show();
+        audiojs.events.ready(function() {
+            var as = audiojs.createAll({
+                autoplay: true
+            });
+        });
         if ($("#owl").length != 0) {
             $("#owl").owlCarousel({
                 items: 1,
@@ -56,40 +56,37 @@
                 margin: 0,
                 smartSpeed: 450,
                 dots: true,
-                autoplay:true,
-                autoplayTimeout:3000,
-                autoplayHoverPause:true
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true
             });
-        }        
+        }
     }
     </script>
 
-    <script type="text/javascript" src="{{ "js/jquery.lettering.js" | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ " js/jquery.lettering.js " | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
-
-    $(document).ready(function(){
+    $(document).ready(function() {
         $("#logo").lettering();
 
-        if( $('.category_main').length != 0){
+        if ($('.category_main').length != 0) {
             var url = window.location.href;
             var indexFlag = url.indexOf('#');
             var categoryClass;
 
-            if(indexFlag < 0){
+            if (indexFlag < 0) {
                 $('.category_main > div').eq(0).fadeIn();
-            }
-            else{
+            } else {
                 categoryClass = '.' + url.substr(indexFlag + 1);
-                if(categoryClass.length <= 1){
+                if (categoryClass.length <= 1) {
                     $('.category_main > div').eq(0).fadeIn();
-                }                
-                else{
+                } else {
                     $(categoryClass).fadeIn();
                 }
             }
 
 
-            $('.page-link').click(function(){
+            $('.page-link').click(function() {
                 var url = $(this).attr('href');
                 var indexFlag = url.indexOf('#');
                 url = url.substr(indexFlag + 1);
