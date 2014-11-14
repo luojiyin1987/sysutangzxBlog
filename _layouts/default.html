@@ -65,7 +65,13 @@
 
         if( $('.category_main').length != 0){
             var categoryClass = '.' + getCategory();
-            $(categoryClass).fadeIn();
+
+            if(categoryClass.length <= 1){
+                $('category_main > div').eq(0).fadeIn();
+            }
+            else{
+                $(categoryClass).fadeIn();
+            }
 
             $('.page-link').click(function(){
                 var url = $(this).attr('href');
