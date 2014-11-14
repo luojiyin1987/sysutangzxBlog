@@ -63,7 +63,10 @@
         $("#logo").lettering();
 
         if( $('.category_main').length != 0){
-            console.log(1);
+            var url = window.location.href;
+            var indexFlag = url.indexOf('#');
+            url = url.substr(indexFlag+1);
+            console.log(url);
         }
     })
     </script>
