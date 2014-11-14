@@ -697,6 +697,7 @@ pre > code {
 }
 .category_main > div {
     display: none;
+    -webkit-animation:fadeInDown 0.5s ease both;
 }
 .category_main ul {
     margin-left: 0;
@@ -706,9 +707,7 @@ pre > code {
     margin-left:15px;
 }
 
-.category_main ul  li{
-    -webkit-animation:fadeInDown 0.5s ease both;
-}
+
 @-webkit-keyframes fadeInDown {
     0% {
         opacity: 0;
