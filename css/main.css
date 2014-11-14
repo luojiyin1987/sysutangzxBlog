@@ -665,28 +665,24 @@ pre > code {
 }
 @-webkit-keyframes wave {
     0% {
-        top: 1px;
+        -webkit-transform:translateY(1px);
     }
     100% {
-        top: 0;
+        -webkit-transform:translateY(0);
     }
 }
 #logo .char1 {
     -webkit-transform: rotate(-3deg);
-    top: 1px;
 }
 #logo .char2 {
     color: #e36b23;
     -webkit-transform: rotate(3deg);
-    top: 0px;
 }
 #logo .char3 {
     color: #e6c92e;
-    top: 1px;
     -webkit-transform: rotate(2deg);
 }
 #logo .char4 {
     color: #5da028;
-    top: 0;
     -webkit-transform: rotate(-2deg);
 }
