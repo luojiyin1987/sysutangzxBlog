@@ -717,7 +717,7 @@ pre > code {
     }
 }
 .loading {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -731,6 +731,7 @@ pre > code {
     top: 30%;
     color: #fff;
     font-size: 30px;
+    text-align: center;
 }
 .loading img {
     position: absolute;
