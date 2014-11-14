@@ -724,6 +724,7 @@ pre > code {
     left: 0;
     background: #000;
     opacity: 0.8;
+    z-index: 99999999999999999999999999999999999999999999;
 }
 .loading img {
     position: absolute;
