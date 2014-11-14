@@ -72,7 +72,7 @@
                 $('.category_main > div').eq(0).fadeIn();
             }
             else{
-                categoryClass = '.' + getCategory();
+                categoryClass = '.' + url.substr(indexFlag + 1);
                 if(categoryClass.length <= 1){
                     $('.category_main > div').eq(0).fadeIn();
                 }                
@@ -80,9 +80,6 @@
                     $(categoryClass).fadeIn();
                 }
             }
-   
-
-
 
 
             $('.page-link').click(function(){
