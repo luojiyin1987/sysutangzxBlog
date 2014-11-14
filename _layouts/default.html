@@ -66,12 +66,13 @@
         if( $('.category_main').length != 0){
             var url = window.location.href;
             var indexFlag = url.indexOf('#');
+            var categoryClass;
 
             if(indexFlag < 0){
                 $('.category_main > div').eq(0).fadeIn();
             }
             else{
-                var categoryClass = '.' + getCategory();
+                categoryClass = '.' + getCategory();
                 if(categoryClass.length <= 1){
                     $('.category_main > div').eq(0).fadeIn();
                 }                
