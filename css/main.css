@@ -679,12 +679,10 @@ pre > code {
 #logo .char2 {
     color: #e36b23;
     -webkit-transform: rotate(3deg);
-    -webkit-animation-delay: 0.5s;
 }
 #logo .char3 {
     color: #e6c92e;
     -webkit-transform: rotate(2deg);
-    -webkit-animation-delay: 1s;
     top: 1px;
 }
 #logo .char4 {
@@ -706,4 +704,18 @@ pre > code {
 .category_main .post-meta{
     display: inline-block;
     margin-left:15px;
+}
+
+.category_main ul  li{
+    -webkit-animation:fadeInDown 0.5s ease both;
+}
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
 }
