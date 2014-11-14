@@ -64,14 +64,25 @@
         $("#logo").lettering();
 
         if( $('.category_main').length != 0){
-            var categoryClass = '.' + getCategory();
+            var url = window.location.href;
+            var indexFlag = url.indexOf('#');
 
-            if(categoryClass.length <= 1){
+            if(indexFlag < 0){
                 $('.category_main > div').eq(0).fadeIn();
             }
             else{
-                $(categoryClass).fadeIn();
+                var categoryClass = '.' + getCategory();
+                if(categoryClass.length <= 1){
+                    $('.category_main > div').eq(0).fadeIn();
+                }                
+                else{
+                    $(categoryClass).fadeIn();
+                }
             }
+   
+
+
+
 
             $('.page-link').click(function(){
                 var url = $(this).attr('href');
@@ -84,12 +95,6 @@
 
         }
     })
-    function getCategory(){
-            var url = window.location.href;
-            var indexFlag = url.indexOf('#');
-            url = url.substr(indexFlag+1);
-            return url;
-    }
     </script>
 
 </body>
