@@ -727,6 +727,8 @@ pre > code {
     z-index: 99999999999999999999999999999999999999999999;
 }
 .loading p {
+    left: 0;
+    right: 0;
     position: absolute;
     top: 30%;
     color: #fff;
