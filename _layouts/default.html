@@ -59,16 +59,21 @@
 
     <script type="text/javascript" src="{{ "js/jquery.lettering.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
-    var categoryClass;
+
     $(document).ready(function(){
         $("#logo").lettering();
 
         if( $('.category_main').length != 0){
-            categoryClass = '.' + getCategory();
-            $(categoryClass).show();
+            var categoryClass = '.' + getCategory();
+            $(categoryClass).fadeIn();
 
             $('.page-link').click(function(){
-                
+                var url = $(this).attr('href');
+                var indexFlag = url.indexOf('#');
+                url = url.substr(indexFlag + 1);
+                url = '.' + url;
+                $('.category_main > div').hide();
+                $(url).fadeIn();
             })
 
         }
