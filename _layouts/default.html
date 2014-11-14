@@ -5,6 +5,9 @@
 
 <body>
 
+    <div class="loading">
+        <img src="http://cody1991.github.io/sysutangzxBlog/source/load.gif"/>
+    </div>
     {% include header.html %}
 
     <div class="page-content">
@@ -42,6 +45,9 @@
     <script type="text/javascript" src="{{ "js/owl.carousel.min.js" | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
     window.onload = function(){
+
+        $('.loading').remove();
+
         if ($("#owl").length != 0) {
             $("#owl").owlCarousel({
                 items: 1,
