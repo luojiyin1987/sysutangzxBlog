@@ -723,8 +723,14 @@ pre > code {
     bottom: 0;
     left: 0;
     background: #000;
-    opacity: 0.8;
+    opacity: 0.9;
     z-index: 99999999999999999999999999999999999999999999;
+}
+.loading p {
+    position: absolute;
+    top: 30%;
+    color: #fff;
+    font-size: 30px;
 }
 .loading img {
     position: absolute;
