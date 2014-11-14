@@ -64,11 +64,11 @@
         $("#logo").lettering();
 
         if( $('.category_main').length != 0){
-            categoryClass = getCategory;
+            categoryClass = getCategory();
             console.log(categoryClass);
 
             $('.page-link').click(function(){
-                categoryClass = getCategory;
+                categoryClass = getCategory();
                 console.log(categoryClass);
             })
 
