@@ -661,6 +661,10 @@ pre > code {
     display: inline-block;
     position: relative;
     letter-spacing: 10px;
+    -webkit-transition:0.5s all;
+}
+#logo span:hover{
+    opacity: 0.8;
 }
 #logo .char1 {
     -webkit-transform: rotate(-3deg);
