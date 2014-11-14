@@ -324,8 +324,6 @@ pre > code {
 .post-meta {
     font-size: 14px;
     color: #828282;
-    display: inline-block;
-    margin-right: 15px;
 }
 .post-link {
     display: block;
@@ -704,4 +702,8 @@ pre > code {
 }
 .category_main ul {
     margin-left: 0;
+}
+.category_main .post-meta{
+    display: inline-block;
+    margin-left:15px;
 }
