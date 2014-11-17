@@ -3,7 +3,7 @@ layout: post
 title:  "Pngyu Introduction"
 date:   2014-11-13 09:30:40
 category: software
-tags: pngSoftware
+tags: 软件推荐
 ---
 
 PNG图片在前端的使用还是很多的，图片的压缩就是个必不可少的过程。[tinypng][tinypngSite]是比较出名的线上压缩网站，不过使用过的人应该知道它非常的繁琐。

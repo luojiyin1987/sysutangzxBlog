@@ -3,6 +3,7 @@ layout: post
 title:  "Personal Summary"
 date:   2014-10-9 16:34:00
 category: private
+tags:个人
 ---
 
 不知不觉进来公司也有三个半月了，感觉这几个月下来学习到了不少的东西，在此做一个总结。
