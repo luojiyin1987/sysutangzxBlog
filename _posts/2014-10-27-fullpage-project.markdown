@@ -3,7 +3,6 @@ layout: post
 title:  "One Page Scroll"
 date:   2014-10-27 18:15:00
 category: frontend
-tags:前端开发
 ---
 
 最近做了两个不错的邀请函模板（单页轮播的），需要的可以自取~
