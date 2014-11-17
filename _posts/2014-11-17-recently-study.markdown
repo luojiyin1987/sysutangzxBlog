@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Recently study"
-date:   2014-10-8 13:52:00
+date:   2014-11-17 14:25:00
 category: private
 ---
 
