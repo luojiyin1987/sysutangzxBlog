@@ -9,7 +9,7 @@ layout: default
 	<ul class="arc-list">
 	    {% for post in category.last %}
 	    <li>
-	    		<a href="sysutangzxBlog{{post.url }}">{{ post.title }}</a>
+	    		<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	    		<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 	    </li>
 	    {% endfor %}
