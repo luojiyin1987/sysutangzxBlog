@@ -61,15 +61,12 @@
     <script type="text/javascript">
     $(document).ready(function() {
         $("#logo").lettering();
-
-
         var other_pgae_url = window.location.href;
         var indexF = other_pgae_url.indexOf('sysutangzxBlog');
         other_pgae_url = '/' + other_pgae_url.substr(indexF);
 
         console.log(other_pgae_url);
         $('.page-link').each(function() {
-
             var thishref= $(this).attr('href');
             thishrefIndex = thishref.indexOf('#');
             thishref = thishref.substr(thishrefIndex + 1);
@@ -107,8 +104,6 @@
                     })
                 }
             }
-
-
             $('.page-link').click(function() {
                 $('.page-link').removeClass('active');
                 $(this).addClass('active');
