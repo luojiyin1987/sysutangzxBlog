@@ -67,7 +67,10 @@ layout: default
 
 
 <script type="text/javascript">
-  $('.item').click(function(){
+$('.owl-item').hover(function(){
+  $(this).css('opacity','0.8');
+})
+  $('.owl-item').click(function(){
     window.location.href = $(this).find('a').attr('href');
   })
 </script>
