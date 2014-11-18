@@ -207,8 +207,11 @@ pre > code {
     line-height: 1.5;
     text-transform: capitalize;
 }
+.site-nav .page-link:hover{
+    color:#828282;
+}
 .site-nav .page-link.active{
-    color:red;
+    color:#828282;
 }
 .site-nav .page-link:not(:first-child) {
     margin-left: 20px;
