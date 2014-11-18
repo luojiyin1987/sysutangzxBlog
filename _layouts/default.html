@@ -81,6 +81,7 @@
                 } else {
                     $(categoryClass).fadeIn();
                     $('.page-link').each(function(){
+                        console.log(old_cate)
                         if($(this).attr('href').indexOf(old_cate) > 0){
                             $(this).addClass('active');
                         }
