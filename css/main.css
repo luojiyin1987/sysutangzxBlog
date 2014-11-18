@@ -794,6 +794,7 @@ audio {
     background-image: url('http://cody1991.github.io/sysutangzxBlog/source/up.png');
     background-repeat: no-repeat;
     opacity: 0.4;
+    -webkit-transition:none;
 }
 #toTop {
     opacity: 0.8;
