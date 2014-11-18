@@ -70,4 +70,10 @@ layout: default
   $('.item').click(function(){
     window.location.href = $(this).find('a').attr('href');
   })
+  $(function() {
+      $("#toTop").scrollToTop();
+  });
 </script>
+
+<script type="text/javascript" src="{{ "js/jquery.scrollToTop.min.js" | prepend: site.baseurl }}"></script>
+<a href="#top" id="toTop"></a>

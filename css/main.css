@@ -181,7 +181,6 @@ pre > code {
     
     border-bottom: 3px solid #e8e8e8;
     min-height: 56px;
-    background: rgba(0,0,0,0.1);
     position: relative;
 }
 .site-title {
@@ -263,7 +262,6 @@ pre > code {
 .site-footer {
     border-top: 3px solid #e8e8e8;
     padding: 30px 0;
-    background: rgba(0,0,0,0.1)
 }
 .footer-heading {
     font-size: 18px;
@@ -785,4 +783,17 @@ audio {
     40% {
         -webkit-transform: scale(1.0);
     }
+}
+#toTop {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 64px;
+    height: 64px;
+    background-image: url('http://cody1991.github.io/sysutangzxBlog/source/up.png');
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+#toTop {
+    opacity: 0.8;
 }
