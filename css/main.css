@@ -207,11 +207,11 @@ pre > code {
     line-height: 1.5;
     text-transform: capitalize;
 }
-.site-nav .page-link:hover{
-    color:#2a7ae2;
+.site-nav .page-link:hover {
+    color: #2a7ae2;
 }
-.site-nav .page-link.active{
-    color:#2a7ae2;
+.site-nav .page-link.active {
+    color: #2a7ae2;
 }
 .site-nav .page-link:not(:first-child) {
     margin-left: 20px;
@@ -634,6 +634,9 @@ audio {
     padding-top: 5px;
     padding-bottom: 5px;
     -webkit-transition: 0.2s all;
+}
+#olw .item:hover {
+    opacity: 0.8;
 }
 #owl .owl_link:hover {
     background: rgba(0, 0, 0, 1);

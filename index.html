@@ -20,6 +20,12 @@ layout: default
     </div>
 </div>
 
+<script type="text/javascript">
+  $('.item').click(function(){
+    window.location.href = $(this).find('a').attr('href');
+  })
+</script>
+
 <div class="home">
   <ul class="post-list">
 
