@@ -635,7 +635,7 @@ audio {
     padding-bottom: 5px;
     -webkit-transition: 0.2s all;
 }
-#owl .owl_link:hover {
+#owl .owl-item .owl_link, #owl .owl_link:hover {
     background: rgba(0, 0, 0, 1);
     text-decoration: none;
 }
