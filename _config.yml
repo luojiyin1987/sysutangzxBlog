@@ -1,8 +1,9 @@
 # Site settings
 title: 小桥流水
+footer_title: sysutangzx
 email: 476490767@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  这是我的个人博客，使用Github Pages和Jekyll搭建 —— 唐泽雄
+  This is my personal blog which using github pages and jkeyll to build.
 baseurl: "/sysutangzxBlog/" 
 url: "http://cody1991.github.io/"
 github_username:  cody1991
