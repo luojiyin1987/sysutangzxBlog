@@ -24,7 +24,7 @@
 
     {% include footer.html %}
 
-    <script type="text/javascript" src="{{ "js/jquery-1.10.2.min.js " | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ " js/jquery-1.10.2.min.js " | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         var pageNum = $('.page .pageNum');
@@ -38,7 +38,7 @@
     </script>
 
 
-    <script type="text/javascript" src="{{ "js/owl.carousel.min.js " | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ " js/owl.carousel.min.js " | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
     window.onload = function() {
         $('.loading').remove();
@@ -57,7 +57,7 @@
     }
     </script>
 
-    <script type="text/javascript" src="{{ "js/jquery.lettering.js " | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ " js/jquery.lettering.js " | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         $("#logo").lettering();
@@ -80,9 +80,10 @@
                     $('.page-link').eq(0).addClass('active');
                 } else {
                     $(categoryClass).fadeIn();
-                    $('.page-link').each(function(){
-                        console.log(old_cate)
-                        if($(this).attr('href').indexOf(old_cate) > 0){
+                    $('.page-link').each(function() {
+                        if ($(this).attr('href').indexOf(old_cate) != -1) {
+                            console.log($(this).attr('href'));
+                            console.log(old_cate)
                             $(this).addClass('active');
                         }
                     })
