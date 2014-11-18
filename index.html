@@ -20,12 +20,6 @@ layout: default
     </div>
 </div>
 
-<script type="text/javascript">
-  $('.item').click(function(){
-    window.location.href = $(this).find('a').attr('href');
-  })
-</script>
-
 <div class="home">
   <ul class="post-list">
 
@@ -65,3 +59,10 @@ layout: default
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
+
+
+<script type="text/javascript">
+  $('.item').click(function(){
+    window.location.href = $(this).find('a').attr('href');
+  })
+</script>
