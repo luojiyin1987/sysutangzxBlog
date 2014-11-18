@@ -65,16 +65,26 @@
         if ($('.category_main').length != 0) {
             var url = window.location.href;
             var indexFlag = url.indexOf('#');
+
+            var old_cate;
             var categoryClass;
 
             if (indexFlag < 0) {
                 $('.category_main > div').eq(0).fadeIn();
+                $('.page-link').eq(0).addClass('active');
             } else {
+                old_cate = categoryClass;
                 categoryClass = '.' + url.substr(indexFlag + 1);
                 if (categoryClass.length <= 1) {
                     $('.category_main > div').eq(0).fadeIn();
+                    $('.page-link').eq(0).addClass('active');
                 } else {
-                    $(categoryClass).fadeIn().addClass('active');
+                    $(categoryClass).fadeIn();
+                    $('.page-link').each(function(){
+                        if($(this).attr('href').indexOf(old_cate) > 0){
+                            $(this).addClass('active');
+                        }
+                    })
                 }
             }
 
