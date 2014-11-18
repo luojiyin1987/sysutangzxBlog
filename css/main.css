@@ -208,10 +208,10 @@ pre > code {
     text-transform: capitalize;
 }
 .site-nav .page-link:hover{
-    color:#828282;
+    color:#2a7ae2;
 }
 .site-nav .page-link.active{
-    color:#828282;
+    color:#2a7ae2;
 }
 .site-nav .page-link:not(:first-child) {
     margin-left: 20px;

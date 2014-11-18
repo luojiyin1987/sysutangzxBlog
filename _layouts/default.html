@@ -73,7 +73,7 @@
                 $('.category_main > div').eq(0).fadeIn();
                 $('.page-link').eq(0).addClass('active');
             } else {
-                old_cate = url.substr(indexFlag + 1);
+                old_cate ='#' + url.substr(indexFlag + 1);
                 categoryClass = '.' + url.substr(indexFlag + 1);
                 if (categoryClass.length <= 1) {
                     $('.category_main > div').eq(0).fadeIn();
