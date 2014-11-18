@@ -11,7 +11,7 @@
         height = 200;
         target = {x: 0, y: height};
 
-        largeHeader = document.getElementById('large-header');
+        largeHeader = document.getElementById('demo-wrapper');
         largeHeader.style.height = height+'px';
 
         canvas = document.getElementById('demo-canvas');
