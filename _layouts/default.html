@@ -66,6 +66,8 @@
         var other_pgae_url = window.location.href;
         var indexF = other_pgae_url.indexOf('sysutangzxBlog/');
         other_pgae_url = '/' + other_pgae_url.substr(indexF + 1);
+
+        consolelog(other_pgae_url);
         $('.page-link').each(function() {
             if ($(this).attr('href').indexOf(other_pgae_url) != -1) {
                 console.log($(this).attr('href'));
