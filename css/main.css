@@ -207,6 +207,9 @@ pre > code {
     line-height: 1.5;
     text-transform: capitalize;
 }
+.site-nav .page-link.active{
+    color:red;
+}
 .site-nav .page-link:not(:first-child) {
     margin-left: 20px;
 }
