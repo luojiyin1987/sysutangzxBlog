@@ -4,6 +4,8 @@
 {% include head.html %}
 
 <body>
+<a href="#top" id="toTop"></a>
+
 
     <div class="loading">
         <div class="spinner">
@@ -118,6 +120,11 @@
         }
     })
     </script>
+
+<script type="text/javascript" src="{{ "js/jquery.scrollToTop.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript">
+      $("#toTop").scrollToTop();
+</script>
 
 </body>
 
