@@ -8,6 +8,7 @@ category: private
 version7.0:
 
 	 添加音乐控件，来自SoundManager2 的 bar-ui 控件
+	 添加百度统计
 
 version6.0:
 	
