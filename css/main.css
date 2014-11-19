@@ -802,6 +802,7 @@ audio {
 .demo-wrapper {
     position: relative;
     width: 100%;
+    text-align: center;
 }
 .sm2-bar-ui {
     -webkit-transition: all 0.2s ease-in-out;
