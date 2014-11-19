@@ -656,6 +656,9 @@ audio {
     .audiojs {
         width: 290px;
     }
+    .sm2-bar-ui {
+        border-radius: 0;
+    }
 }
 @font-face {
     font-family: 'FranchiseRegular';
@@ -802,8 +805,8 @@ audio {
 .demo-wrapper {
     position: fixed;
     bottom: 0;
-    margin: 0 5%;
-    width: 90%;
+    margin: 0 auto;
+    width: 100%;
     text-align: center;
 }
 .sm2-bar-ui {
