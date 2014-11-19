@@ -807,6 +807,7 @@ audio {
     opacity: 0.8;
 }
 .demo-wrapper {
+    z-index: 10;
     position: fixed;
     bottom: 0;
     margin: 0 auto;
