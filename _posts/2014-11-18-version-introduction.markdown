@@ -5,6 +5,10 @@ date:   2014-11-18 11:47:00
 category: private
 ---
 
+version7.0:
+
+	 添加音乐控件，来自SoundManager2 的 bar-ui 控件
+
 version6.0:
 	
 	2014-11-18：
