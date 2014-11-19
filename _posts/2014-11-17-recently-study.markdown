@@ -14,6 +14,8 @@ category: private
 
 先学 [angular.js][angularSite] ~~~
 
+<hr/>
+
 今天没事看了下ACFUN的招聘，发现前端开发工程师的招聘信息有个加分项：会[jade][jadesite] ，[stylus][stylussite] ，[coffeescript][coffeescriptsite]，都是那种预处理的吧。最近来学学这三个吧~~（还有angular.js sea.js神马的想学）
 
 [myangular]:https://github.com/cody1991/angular
