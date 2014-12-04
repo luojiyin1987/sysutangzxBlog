@@ -38,11 +38,11 @@ DEMO？官网左上角的圆圈（或者其他一些元素）就是很好的案�
 
 recentlyProject，写这个的缘由是想要收集起自己做过的项目，过往的就不收集了，以后面试什么的方便展示。截图如下：
 
-<img src="{{site.url}}sysutangzxBlog/source/2014.12.04/2.png">
+<img src="{{site.url}}sysutangzxBlog/source/2014.12.04/1.png">
 
 而codyLib是和recentlyProject配套做出来的网页，也是收集最近做的项目中使用到的HTML模板，CSS文件和JS工具库，而在新的项目需要的使用直接引入它们的绝对域名URL。（如果新的页面引入的文件，在以前访问旧的页面的时候也用到的话，cache缓存还存在的时候就可以加快页面加载速度了，和cdn类似吧，方便你我他）。截图如下：
 
-<img src="{{site.url}}sysutangzxBlog/source/2014.12.04/1.png">
+<img src="{{site.url}}sysutangzxBlog/source/2014.12.04/2.png">
 
 The end ~ 谢谢观看 ~ 欢迎留言 ~
 
