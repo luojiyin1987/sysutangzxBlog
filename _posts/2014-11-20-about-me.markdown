@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "About Me"
+title:  "My Resume"
 date:   2014-11-20 17:49:00
 category: private
 ---
