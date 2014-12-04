@@ -612,9 +612,9 @@ audio {
 .post-title {
     margin-top: 15px;
 }
-.post-list {
+/*.post-list {
     height: 860px;
-}
+}*/
 .ds-powered-by {
     display: none;
 }
