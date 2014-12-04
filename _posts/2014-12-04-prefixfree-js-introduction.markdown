@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Prefixfree.js Introduction"
-date:   2014-12-4 13:35:00
+date:   2014-12-04 13:35:00
 category: frontend
 ---
 发现好久没写博客了...
@@ -18,11 +18,11 @@ category: frontend
 
 根据官网，草草的翻译几段话吧。
 
-特性上，它都可以在需要的时候给<link>引入的CSS或者<style>里面的CSS属性或者行内CSS属性加上前缀；也可以在动态引入的CSS属性在需要的时候加入前缀，不过需要它们的一个插件（有兴趣可以到官网的plugins栏目下看~）；而用jquery.css()设置的属性也同样生效，不过也需要另外多一个插件。
+特性上，它都可以在需要的时候给`<link>`引入的CSS或者`<style>`里面的CSS属性或者行内CSS属性加上前缀；也可以在动态引入的CSS属性在需要的时候加入前缀，不过需要它们的一个插件（有兴趣可以到官网的plugins栏目下看~）；而用`jquery.css()`设置的属性也同样生效，不过也需要另外多一个插件。
 
-特效上也有它的局限性，在CSS文件里面使用import引入的CSS属性不支持前缀添加（那就不要这样用了~又增加请求神马的），跨域名的CSS样式表也是不支持的，比如在本地直接打开引入了这个插件的文件，会有报错“ Cross origin requests are only supported for protocol schemes: http, data, chrome-extension, https, chrome-extension-resource.”，所以一般我会用apache来看，你也可以在官网的FAQ下看看，给chrome或者firefox浏览器添加点参数神马的来解决。另外行内的CSS属性的前缀添加在firefox < 3.6下和IE中也不是支持的很好。
+特效上也有它的局限性，在CSS文件里面使用`import`引入的CSS属性不支持前缀添加（那就不要这样用了~又增加请求神马的），跨域名的CSS样式表也是不支持的，比如在本地直接打开引入了这个插件的文件，会有报错“ Cross origin requests are only supported for protocol schemes: http, data, chrome-extension, https, chrome-extension-resource.”，所以一般我会用apache来看，你也可以在官网的FAQ下看看，给chrome或者firefox浏览器添加点参数神马的来解决。另外行内的CSS属性的前缀添加在firefox < 3.6下和IE中也不是支持的很好。
 
-DEMO？官网左上角的圆圈（或者其他一些元素）就是很好的案例了，在引入的CSS文件中都没有写前缀，但在F12控制台下可以看到添加了 -webkit- 或者 -moz- 的前缀
+DEMO？官网左上角的圆圈（或者其他一些元素）就是很好的案例了，在引入的CSS文件中都没有写前缀，但在F12控制台下可以看到添加了 -webkit- 或者 -moz- 的前缀。
 
 而使用的方法也是非常方便，只需要引入prefixfree.js文件就够了，不需要写其他任何的东西。你可以放在任何地方，但是推荐放在最后引入的css文件的后面，我也是这样做的。
 
@@ -36,9 +36,9 @@ DEMO？官网左上角的圆圈（或者其他一些元素）就是很好的案�
 
 另外最近也是各种忙东西啊，写了自己最新的两个网站[recentlyProject][recentlyProjectSite]和[codyLib][codyLibSite]。
 
-recentlyProject，写这个的缘由是想要收集起自己做过的项目，过往的就不收集了，也方便以后面试什么的方便展示。截图如下：
+recentlyProject，写这个的缘由是想要收集起自己做过的项目，过往的就不收集了，以后面试什么的方便展示。截图如下：
 
-<img src="{{site.url}}sysutangzxBlog/source/2014.12.04/1.png">
+<img src="{{site.url}}sysutangzxBlog/source/2014.12.04/2.png">
 
 而codyLib是和recentlyProject配套做出来的网页，也是收集最近做的项目中使用到的HTML模板，CSS文件和JS工具库，而在新的项目需要的使用直接引入它们的绝对域名URL。（如果新的页面引入的文件，在以前访问旧的页面的时候也用到的话，cache缓存还存在的时候就可以加快页面加载速度了，和cdn类似吧，方便你我他）。截图如下：
 
