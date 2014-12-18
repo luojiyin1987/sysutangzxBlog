@@ -804,7 +804,7 @@ audio {
     opacity: 0.4;
     -webkit-transition: none;
 }
-#toTop {
+#toTop:hover,#toTop:active {
     opacity: 0.8;
 }
 .demo-wrapper {
