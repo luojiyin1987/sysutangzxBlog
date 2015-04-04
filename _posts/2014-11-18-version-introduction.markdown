@@ -1,14 +1,20 @@
 ---
 layout: post
 title:  "Version Introduction"
-date:   2014-11-18 11:47:00
+date:   2015-04-04 16:43:00
 category: private
 ---
 
+version8.0:
+
+	删除首页轮播
+	删除SoundManager2音乐控件
+	主要考虑加载速度问题，这个博客还是以简约为主比较好
+
 version7.0:
 
-	 添加音乐控件，来自SoundManager2 的 bar-ui 控件
-	 添加百度统计
+	添加音乐控件，来自SoundManager2 的 bar-ui 控件
+	添加百度统计
 
 version6.0:
 	
