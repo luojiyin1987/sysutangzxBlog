@@ -770,7 +770,7 @@ audio {
     -webkit-transition: all 0.2s ease-in-out;
 }
 #loading {
-    z-index: 999;
+    z-index: 999999999999;
     background: #1c1c3d;
     position: fixed;
     top: 0;
