@@ -136,7 +136,6 @@ pre > code {
  */
 
 .wrapper {
-    padding-top:15px;
     max-width: -webkit-calc(800px - (30px * 2));
     max-width: calc(800px - (30px * 2));
     margin-right: auto;
@@ -318,6 +317,9 @@ pre > code {
 
 .page-content {
     padding: 0 0 30px 0;
+}
+.page-content .wrapper {
+    padding-top: 15px;
 }
 .page-heading {
     font-size: 20px;
@@ -616,6 +618,7 @@ audio {
 /*.post-list {
     height: 860px;
 }*/
+
 .ds-powered-by {
     display: none;
 }
@@ -805,7 +808,7 @@ audio {
     opacity: 0.4;
     -webkit-transition: none;
 }
-#toTop:hover,#toTop:active {
+#toTop:hover, #toTop:active {
     opacity: 0.8;
 }
 .demo-wrapper {
