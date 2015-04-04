@@ -9,13 +9,16 @@
     <a href="#top" id="toTop"></a>
 
 
-    <div class="loading">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
+    <div id="loading">
+        <ul class="bokeh">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </div>
+
+
     {% include header.html %}
 
     <div class="page-content">
@@ -46,7 +49,7 @@
 
     <script type="text/javascript">
     window.onload = function() {
-        $('.loading').remove();
+        $('#loading').remove();
         if ($("#owl").length != 0) {
             $("#owl").owlCarousel({
                 items: 1,
