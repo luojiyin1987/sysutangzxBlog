@@ -179,7 +179,6 @@ pre > code {
 
 .site-header {
     /*border-top: 5px solid #424242;*/
-    
     border-bottom: 3px solid #e8e8e8;
     min-height: 56px;
     position: relative;
@@ -922,4 +921,7 @@ audio {
     91.0% {
         opacity: 0.87;
     }
+}
+.post-content p {
+    text-indent: 2em;
 }
