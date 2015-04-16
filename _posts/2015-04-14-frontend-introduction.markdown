@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "frontend introduction"
+title:  "Frontend Introduction"
 date:   2015-04-14 23:34:00
 category: frontend
 ---
