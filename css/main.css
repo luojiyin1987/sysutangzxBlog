@@ -27,6 +27,7 @@ body {
     color: #111111;
     background: #fdfdfd url(../source/bg.png) repeat;
     -webkit-text-size-adjust: 100%;
+    overflow: hidden;
 }
 /**
  * Set `margin-bottom` to maintain vertical rhythm
