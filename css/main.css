@@ -673,18 +673,18 @@ audio {
         border-radius: 0;
     }
 }
-@font-face {
+/*@font-face {
     font-family: 'FranchiseRegular';
     src: local('☺'), url('franchise-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal
-}
+}*/
 #logo {
     font-weight: normal;
     text-transform: uppercase;
-    font-family: 'FranchiseRegular', sans-serif;
+    font-family: sans-serif;
     font-size: 20px;
-    color: #c44032;
+    color: #111111;
 }
 #logo span {
     display: inline-block;
