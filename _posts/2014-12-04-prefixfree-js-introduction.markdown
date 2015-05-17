@@ -4,7 +4,6 @@ title:  "Prefixfree.js Introduction"
 date:   2014-12-04 13:35:00
 category: frontend
 ---
-发现好久没写博客了...
 
 因为是专注于移动前端的开发，特别是微信端的，而又需要各自各样的动画之类的，CSS3的不少属性需要加上 -webkit- 的前缀，（比如box-shadow啦，transition啦）真心有点感觉是无用功。。。
 
@@ -30,25 +29,8 @@ DEMO？官网左上角的圆圈（或者其他一些元素）就是很好的案�
 
 更多的内容就到官网查看吧~这几天接到手上的项目我都引入这个库了，以后再也不用写前缀了，是一种解脱！
 
-另外预告下下一篇博文的内容，就是[idangerous.swiper][swiperSite]的使用，感觉这个插件真心强大。之前有提到过的我的几个轮播插件[pagePiling][pagePilingSite]、[fullpage][fullpage]和[owl.carousel.fullpage][owl.carousel.fullpage]，或多或少存在点问题：pagePiling和fullpage更适合全屏的滚动，要改成纯轮播非全屏的会改变它很多原生的CSS代码，感觉费劲。而owl.carousel在轮播元素是图片的时候总是存在滑动到下一屏的时候图片的空白，用户体验很不好。
+不过如今自己在弄gulp结合less，感觉可以不使用这个插件了。
 
-所以找了个新的插件idangerous.swiper，现在各种测试都过得去，而且它功能真心强大，参数和函数调用也是非常的多，在最新的项目中会使用它，如果表现不错的话就写一篇博文吧，介绍下它的使用，有兴趣的可以前往idangero.us网站观看，它们的framework7也是很强大的移动前端开发框架，一直想学可是没时间。。。
-
-另外最近也是各种忙东西啊，写了自己最新的两个网站[recentlyProject][recentlyProjectSite]和[codyLib][codyLibSite]。
-
-recentlyProject，写这个的缘由是想要收集起自己做过的项目，过往的就不收集了，以后面试什么的方便展示。截图如下：
-
-<img src="{{site.url}}sysutangzxBlog/source/2014.12.04/1.png">
-
-而codyLib是和recentlyProject配套做出来的网页，也是收集最近做的项目中使用到的HTML模板，CSS文件和JS工具库，而在新的项目需要的使用直接引入它们的绝对域名URL。（如果新的页面引入的文件，在以前访问旧的页面的时候也用到的话，cache缓存还存在的时候就可以加快页面加载速度了，和cdn类似吧，方便你我他）。截图如下：
-
-<img src="{{site.url}}sysutangzxBlog/source/2014.12.04/2.png">
-
-The end ~ 谢谢观看 ~ 欢迎留言 ~
-
-中午没睡觉啊摔。。要上班了。。困=_=
-
-<img src="{{site.url}}sysutangzxBlog/source/2014.12.04/3.jpg">
 
 [prefixfreeHome]:http://leaverou.github.io/prefixfree/
 [prefixfreeGit]:https://github.com/LeaVerou/prefixfree
