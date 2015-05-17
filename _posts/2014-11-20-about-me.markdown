@@ -1,17 +1,14 @@
 ---
 layout: post
 title:  "My Resume"
-date:   2014-11-20 17:49:00
+date:   2015-05-17 16:43:00
 category: private
 ---
 
-花了好长时间终于把自己的个人简历页面搞出来了。= =
-
-目前只有英文版，这几天有空翻译成中文吧。
-
-（感觉翻译以后会很怪啊摔 ~ 还是写英文的好。。
+如今只维护自己简历的中文版本了。
 
 附上地址： [About Me][abouemesite] ~~~
 
+另外在这个项目的[README.md](https://github.com/cody1991/aboutme)可以看到更多的个人介绍。
 
 [abouemesite]:http://cody1991.github.io/aboutme/

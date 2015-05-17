@@ -18,6 +18,8 @@ category: frontend
 这个是soundmanager 2 的官网截图：
 <img src="{{site.url}}sysutangzxBlog/source/2014.11.19/2.png">
 
+修改：博客已经去除这个插件，因为歌曲实在太多太大，体验上不好。
+
 
 
 [smgit]:https://github.com/scottschiller/SoundManager2
