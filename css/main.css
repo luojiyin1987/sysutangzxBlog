@@ -180,10 +180,13 @@ pre > code {
  */
 
 .site-header {
+    z-index: 999999;
     /*border-top: 5px solid #424242;*/
     border-bottom: 3px solid #e8e8e8;
     min-height: 100px;
     position: relative;
+    width:100%;
+    background: #fdfdfd url(../source/bg.png) repeat;
 }
 .site-title {
     font-size: 26px;
