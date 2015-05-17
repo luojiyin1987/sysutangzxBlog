@@ -33,6 +33,7 @@
 
 
     <script type="text/javascript" src="{{ "js/jquery-1.10.2.min.js " | prepend: site.baseurl }}"></script>
+    <script type="text/javascript" src="{{ "js/noframework.waypoints.min.js " | prepend: site.baseurl }}"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         var pageNum = $('.page .pageNum');
@@ -66,10 +67,10 @@
     }
     </script>
 
-    <script type="text/javascript" src="{{ "js/jquery.lettering.js " | prepend: site.baseurl }}"></script>
+    <!--<script type="text/javascript" src="{{ "js/jquery.lettering.js " | prepend: site.baseurl }}"></script>-->
     <script type="text/javascript">
     $(document).ready(function() {
-        $("#logo").lettering();
+        // $("#logo").lettering();
         var other_pgae_url = window.location.href;
         var indexF = other_pgae_url.indexOf('sysutangzxBlog');
         other_pgae_url = '/' + other_pgae_url.substr(indexF);
@@ -126,6 +127,23 @@
 
         }
     })
+    </script>
+
+    <script type="text/javascript">
+    var waypoint = new Waypoint({
+        element: document.getElementById('site-nav'),
+        handler: function(direction) {
+            console.log(direction , this.group.name , this.options ,this.triggerPoint);
+            if (direction === 'down') {
+                this.element.style.position = 'fixed';
+                this.element.style.top = '0px'
+            }
+            else{
+                this.element.style.position = 'relative';
+            }
+        },
+    })
+
     </script>
 
     <script type="text/javascript" src="{{ "js/jquery.scrollToTop.min.js " | prepend: site.baseurl }}"></script>
