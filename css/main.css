@@ -240,7 +240,8 @@ pre > code {
     
     border-bottom: 1px solid #e8e8e8;
     min-height: 100px;
-    position: relative;
+    position: fixed;
+    top: 0;
     width: 100%;
     background: #fdfdfd url(../source/bg.png) repeat;
 }
