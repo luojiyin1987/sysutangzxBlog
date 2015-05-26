@@ -152,7 +152,6 @@ blockquote {
     padding-left: 15px;
     font-size: 18px;
     letter-spacing: -1px;
-    font-style: italic;
 }
 
 blockquote >:last-child {
