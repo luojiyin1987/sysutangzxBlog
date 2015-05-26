@@ -14,6 +14,6 @@ Angular 学习 (1) 草稿
 
 angular.js的官网文档是这样定义它的：
 
-	完全使用javascript编写的客户端技术。同其他历史悠久的WEB技术（HTML,CSS和javascript）配合使用，是WEB应用开发比以往更加简单。
+>完全使用javascript编写的客户端技术。同其他历史悠久的WEB技术（HTML,CSS和javascript）配合使用，是WEB应用开发比以往更加简单。
 
 
