@@ -5,7 +5,7 @@ date:   2015-05-26 20:12:00
 category: angular
 ---
 
-Angular 学习 (1) 草稿
+Angular 学习 (1)
 =====================
 
 前言：
@@ -28,7 +28,7 @@ Angular 学习 (1) 草稿
 Chapter 1 (开始于《angular.js权威指南》第一章)
 ---
 
->From 《angular.js权威指南》第一章
+    From 《angular.js权威指南》第一章
 
 angular.js的官网文档是这样定义它的：
 
@@ -38,12 +38,12 @@ angular.js的官网文档是这样定义它的：
 
 angular提供了一系列高级功能，比如：
 
-1. 解耦应用逻辑、数据模型和视图
-2. ajax服务
-3. 依赖注入
-4. 浏览历史（书签的前进、后退按钮可以像普通web应用一样工作
-5. 测试
-6. 更多
+1.  解耦应用逻辑、数据模型和视图
+2.  ajax服务
+3.  依赖注入
+4.  浏览历史（书签的前进、后退按钮可以像普通web应用一样工作
+5.  测试
+6.  更多
 
 *** 
 
@@ -51,7 +51,7 @@ angular通过原生的Model-view-controller,MVC功能增强了HTML，结果表�
 
 angular压缩以后不会付出太大的额外代价，上面提到的 [最新稳定版本 AngularJS v1.3.15](http://cody1991.github.io/angular-study/lib/angular.min.js) ,大小只有123KB，非常适合开发功能原型。
 
-> From 《angular.js权威指南》第二章
+    From 《angular.js权威指南》第二章
 
 Hello World
 ---
@@ -115,12 +115,46 @@ index.html
 common.js
 
     var myapp = angular.module('myapp', []);
-    myapp.controller('myController', function($scope, $timeout) {
-        var updateClock = function() {
-            $scope.clock = new Date();
-            $timeout(function() {
-                updateClock();
-            }, 1000);
+    myapp.controller('myController', function($scope) {
+        $scope.clock = {
+            now:new Date()
+        };
+        var updateClock = function(){
+            $scope.clock.now = new Date();
         }
-        updateClock();
+        setInterval(function(){
+            $scope.$apply(updateClock);
+        },1000);
     })
+
+
+[Ch1.2 源码地址](https://github.com/cody1991/angular-study/tree/gh-pages/ch1.2)
+
+上面这个案例还使用了模块化的方法。后面会有所介绍。这也是ng最佳实践之一。而通常在视图中通过对象的属性而不是对象本身来进行引用绑定，也是ng中的最佳实践。
+
+    From 《angular.js权威指南》第三章
+
+在js中把所有函数代码定义在全局命名空间绝对不是什么好主意，会导致冲突，引起调试非常困难。为了写出高效、能用的生产环境中的控制器代码，我们把它们封装在模块（module)中。在ng中模块是定义应用的最主要方式，模块包含了主要的应用代码。一个应用可以包含多个模块，每个模块包含了定义具体功能的代码。模块能带给我们的好处包括了：
+
+1.  保持全局命名空间的清洁
+2.  编写测试代码更加容易，并能保持清洁，以便更容易找到相互隔离的功能
+3.  易于在不同应用中复用代码
+4.  使应用可以任意顺序加载代码的各个部分
+
+ng允许我们使用angular.module()方法来声明模块，接受两个参数，第一个是模块的名称，第二个是依赖列表，也就是可以被注入到模块中的对象列表。比如上面例子的：
+
+     var myapp = angular.module('myapp', []);
+
+这个方面相当于ng中的 setter 方法，用来定义模块。调用这个方法只传递一个参数的时候表示应用模块。比如下面的代码：
+
+    angular.module('myapp');
+    
+这个方法相当于ng模块的 getter 方法，用来获取模块的引用。接下来我们就可以在angular.module('myApp')返回的对象上创建我们的应用了。开发大型应用的时候我们会创建多个模块来承载业务逻辑，将复杂的功能分隔成不同的模块，有助于单独为它们编写测试。
+    
+最后说下angular.module的参数来结束本章吧。
+
+    name(字符串）：name是模块的名称，字符串变量
+    
+    requires(字符串数组）：requires包含了一个字符串变量组成的列表，每个元素都是一个模块名称，本模块依赖于这些模块，依赖需要在本模块加载之前由注入器进行预加载。
+    
+[返回angular学习笔记列表](http://cody1991.github.io/sysutangzxBlog/category.html#angular)
