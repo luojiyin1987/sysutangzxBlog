@@ -29,7 +29,7 @@ pngquant 是一个用来压缩 PNG 图像的命令行脚本和 C 库，经过转
 
 可以看到效率非常高。非常好用的软件吧~~
 
-下载地址：[pngyu.rar 4.8MB][download]
+下载地址：[pngyu.rar 4.8MB][download] || [pngyu for mac][download2]
 
 
 
@@ -38,3 +38,4 @@ pngquant 是一个用来压缩 PNG 图像的命令行脚本和 C 库，经过转
 [pngquantSite]: http://pngquant.com/
 [pngyuSite]:http://nukesaq88.github.io/Pngyu/
 [download]:http://cody1991.github.io/sysutangzxBlog/source/2014.11.13/Pngyu.rar
+[download2]:http://macdownload.informer.com/pngyu/
